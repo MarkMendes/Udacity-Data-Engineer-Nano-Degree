@@ -59,6 +59,14 @@ These tables can be created directly in Redshift using the statements in 'final_
     * final_project_create_tables.py:  OPTIONAL: DAG to set up your enviornment by creating the nessesary tables.  Designed to be run ad-hoc.
 
 ## Images
+Proof DAG runs sucessfully:
 ![DAG Sucess](https://github.com/MarkMendes/Udacity-Data-Engineer-Nano-Degree/blob/main/Project04-DataPipelines/img/Graph%20View.PNG)
+
+Graph View:
+![DAG Graph](https://github.com/MarkMendes/Udacity-Data-Engineer-Nano-Degree/blob/main/Project04-DataPipelines/img/Graph%20View.PNG)
+
+Proof Data Quality Operator runs correctly:
+![DQ Log](https://github.com/MarkMendes/Udacity-Data-Engineer-Nano-Degree/blob/main/Project04-DataPipelines/img/Data%20Quality%20Logs%20Sucess.PNG)
+
 
 
