@@ -30,7 +30,7 @@ A prerequisite of this pipeline is the existance of the nessesary tables to load
 
 These tables can be created directly in Redshift using the statements in 'final_project_create_tables_sql.py' or optionally, you can run the included DAG 'final_projects_create_tables.py' to set up your enviornment.
 
-### final_project DAG
+### Final_project DAG
 #### Tasks
 * Begin_execution:  Dummy operator to capture DAG start
 * Stage_events:  Copy event data from S3 to Redshift stage table
@@ -57,5 +57,8 @@ These tables can be created directly in Redshift using the statements in 'final_
 * /dags/project/
     * final_project.py:  DAG to copy data from S3 to Redshift Stage Tables, Load Data to Fact and Dimension Tables, and perform data qulaity checks.
     * final_project_create_tables.py:  OPTIONAL: DAG to set up your enviornment by creating the nessesary tables.  Designed to be run ad-hoc.
+
+## Images
+![DAG Sucess](https://github.com/MarkMendes/Udacity-Data-Engineer-Nano-Degree/blob/main/Project04-DataPipelines/img/Graph%20View.PNG)
 
 
