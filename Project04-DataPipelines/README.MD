@@ -60,7 +60,7 @@ These tables can be created directly in Redshift using the statements in 'final_
 
 ## Images
 Proof DAG runs sucessfully:
-![DAG Sucess](https://github.com/MarkMendes/Udacity-Data-Engineer-Nano-Degree/blob/main/Project04-DataPipelines/img/Graph%20View.PNG)
+![DAG Sucess](https://github.com/MarkMendes/Udacity-Data-Engineer-Nano-Degree/blob/main/Project04-DataPipelines/img/DAG%20Success.PNG)
 
 Graph View:
 ![DAG Graph](https://github.com/MarkMendes/Udacity-Data-Engineer-Nano-Degree/blob/main/Project04-DataPipelines/img/Graph%20View.PNG)
