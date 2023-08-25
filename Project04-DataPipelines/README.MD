@@ -44,6 +44,8 @@ These tables can be created directly in Redshift using the statements in 'final_
 * End_execution:  Dummy operator to catpure DAG end
 
 ## Project Struture
+* /create_tables.sql:  Create tables for project
+
 * /dags/udacity/common/
     * final_project_sql_statements.py:  Redshift SQL queries used by the final_project DAG
     * final_project_create_tables_sql.py:  OPTIONAL:  Redshift SQL queries used to create tables required for DAG.  Can also be mannual created in Redshift
